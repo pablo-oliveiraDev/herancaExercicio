@@ -15,7 +15,7 @@ namespace execicioHeranca1.Entities
             AdicionalCharge = adicinalCharge;
         }
 
-        public double  payment(double Salary)
+        public double Payment(double Salary)
         {
             return Salary += AdicionalCharge * (110/100);
         }
