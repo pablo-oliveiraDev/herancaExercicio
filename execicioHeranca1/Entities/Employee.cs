@@ -22,9 +22,9 @@ namespace execicioHeranca1.Entities
             ValuePerHour = valuePerHour;
         }
 
-        public double Payment(double Salary)
+        public virtual double Payment()
         {
-            return  Salary+= ValuePerHour * Hours;
+            return ValuePerHour * Hours;
         }
     }
 }
